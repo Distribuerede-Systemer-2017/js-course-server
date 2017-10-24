@@ -1,0 +1,38 @@
+{
+  "name": "Book",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "isbn": {
+      "type": "number"
+    },
+    "version": {
+      "type": "number"
+    },
+    "imgUrl": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "authors": {
+      "type": "hasMany",
+      "model": "Author"
+    },
+    "publisher": {
+      "type": "belongsTo",
+      "model": "Publisher"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

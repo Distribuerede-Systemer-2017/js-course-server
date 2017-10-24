@@ -1,0 +1,22 @@
+{
+  "name": "Publisher",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "books": {
+      "type": "hasMany",
+      "model": "Book"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
