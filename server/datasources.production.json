@@ -4,11 +4,11 @@
     "connector": "memory"
   },
   "mongodb": {
-    "host": "localhost",
-    "port": 27017,
-    "database": "dis-bookstore",
-    "username": "",
-    "password": "",
+    "host": "${MONGO_HOST}",
+    "port": "${MONGO_PORT}",
+    "database": "${MONGO_DATABASE}",
+    "username": "${MONGO_USERNAME}",
+    "password": "${MONGO_PASSWORD}",
     "name": "mongodb",
     "connector": "mongodb"
   }
