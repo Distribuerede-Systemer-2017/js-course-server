@@ -44,10 +44,6 @@
     "dataSource": "mongodb",
     "public": true
   },
-  "Publisher": {
-    "dataSource": "mongodb",
-    "public": true
-  },
   "Order": {
     "dataSource": "mongodb",
     "public": true
