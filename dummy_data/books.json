@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Clean Code",
+    "subtitle": "A Handbook of Agile Software Craftsmanship",
+    "isbn": "9780136083252",
+    "publisher": "Pearson Education",
+    "imgUrl": "http://books.google.com/books/content?id=_i6bDeoCQzsC&printsec=frontcover&img=1&zoom=0&edge=curl&source=gbs_api",
+    "price": 110
+  },
+  {
+    "title": "The Lean Startup",
+    "subtitle": "How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
+    "isbn": "9780307887917",
+    "imgUrl": "http://books.google.com/books/content?id=tvfyz-4JILwC&printsec=frontcover&img=1&zoom=0&edge=curl&source=gbs_api",
+    "price": 99,
+    "publisher":"Crown Business"
+  },
+  {
+    "title": "Playing to Win",
+    "subtitle": "How Strategy Really Works",
+    "isbn": "9781422187401",
+    "imgUrl": "http://books.google.com/books/content?id=qJFQqVa_p3YC&printsec=frontcover&img=1&zoom=0&edge=curl&source=gbs_api",
+    "price": 199,
+    "publisher":"Harvard Business Press"
+  },
+  {
+    "title": "Adventures of an It Leader",
+    "isbn": "9781422129500",
+    "imgUrl": "http://books.google.com/books/content?id=ERmOQMU4yIYC&printsec=frontcover&img=1&zoom=0&edge=curl&source=gbs_api",
+    "price": 149,
+    "publisher": "Harvard Business Press"
+  },
+  {
+    "title": "Steve Jobs",
+    "subtitle": "En biografi om manden bag Apple",
+    "isbn": "9788702124620",
+    "imgUrl": "http://books.google.com/books/content?id=7KQZ8sriFIAC&printsec=frontcover&img=1&zoom=0&edge=curl&source=gbs_api",
+    "price": 199,
+    "publisher": "Gyldendal A/S"
+  }
+]
