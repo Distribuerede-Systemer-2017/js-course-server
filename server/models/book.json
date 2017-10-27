@@ -20,12 +20,13 @@
     },
     "imgUrl": {
       "type": "string"
-    }
+    },
+    "price":"number"
   },
   "validations": [],
   "relations": {
     "authors": {
-      "type": "hasMany",
+      "type": "referencesMany",
       "model": "Author"
     },
     "publisher": {
