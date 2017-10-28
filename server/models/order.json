@@ -5,7 +5,9 @@
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "total":"number"
+  },
   "validations": [],
   "relations": {
     "createdBy": {
