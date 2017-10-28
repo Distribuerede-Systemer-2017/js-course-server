@@ -21,7 +21,9 @@
     "imgUrl": {
       "type": "string"
     },
-    "price":"number"
+    "price": {
+      "type": "number"
+    }
   },
   "validations": [],
   "relations": {

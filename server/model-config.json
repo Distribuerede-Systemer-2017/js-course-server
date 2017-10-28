@@ -47,5 +47,9 @@
   "Order": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "OrderItem": {
+    "dataSource": "transient",
+    "public": true
   }
 }

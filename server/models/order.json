@@ -12,9 +12,14 @@
       "type": "belongsTo",
       "model": "User"
     },
-    "books": {
-      "type": "referencesMany",
-      "model": "Book"
+    "orderItemsRef": {
+      "type": "embedsMany",
+      "model": "OrderItem",
+      "foreignKey": "orderItems",
+      "options": {
+        "validate": false,
+        "forceId": false
+      }
     }
   },
   "acls": [

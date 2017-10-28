@@ -1,0 +1,27 @@
+{
+  "name": "OrderItem",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "count": {
+      "type": "number"
+    },
+    "id": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "uuid"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "book":{
+      "type":"belongsTo",
+      "model":"Book"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
