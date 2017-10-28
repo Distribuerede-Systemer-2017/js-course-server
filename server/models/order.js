@@ -12,7 +12,6 @@ module.exports = function (Order) {
     }).then(orders => {
       Promise.each(orders, (order) => {
         return Promise.each(order.__data.orderItems, item => {
-          var foo =1;
           return Order.app.models.Book.findById(item.bookId).then(book => item.bookInfo = book);
         })
       }).then(() => {
